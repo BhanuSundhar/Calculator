@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 233, 235);
+}
+.calc{
+    width: 400px;
+    background-color: rgb(26, 78, 124);
+    color: azure;
+    margin: 100px auto;
+    padding: 4px;
+}
+.cal-1 > h2{
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.cal-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+#clear{
+    width: 26%;
+    font-size: large;
+    height: 7vh;
+    font-weight: 1.4em;
+    background-color: rgb(26, 78, 124);
+    color: white;
+}
+#text-area{
+    /*
+    width: 389px;
+    padding: 100%;
+    */
+    font-size: x-large;
+    width: 74%;
+    height: 7vh;
+    padding: 0;
+    margin: 0;
+    border: 1px solid  rgb(26, 78, 124);
+}
+
+/*
+#calculate > #number::-webkit-outer-spin-button , 
+#calculate > #number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+#calculate > #number {
+    -moz-appearance: textfield;
+}
+*/
+.cal-3{
+    padding-top: 5px;
+    color: aliceblue;
+}
+table{
+    width: 100%;
+}
+
+
+td > input{
+    color: black;
+    background-color: rgb(26, 78, 124);
+    width: 100%;
+    height: 9vh;
+    font-size: 20px;
+}
+
